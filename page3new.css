@@ -1,0 +1,132 @@
+
+body {
+  /* background-color: #f0f0f0; */
+  font-size: 14px;
+  color: #white;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+  padding: 10px 0;
+  margin: 0;
+}
+p{
+  display;inline
+  padding: 10px 0;
+  /* margin: 0px 30px 0px 50px; */
+  text-align: center;
+  color:#A9A9A9
+}
+header {
+  /*background-color: gray;*/
+/*  height: 10px;*/
+ margin-top: 30px;
+}
+a{
+}
+footer {
+  height: 50px;*/
+  text-align: center;
+}
+
+
+
+.selectradio {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+ }
+  .selectradio .selectradio-item {
+    margin: 5px 0;
+    padding: 0;
+  }
+  .selectradio input[type="radio"] {
+    display: none;
+  }
+  .selectradio input[type="radio"]:checked + label {
+    background: #C0E8FF;
+    color: #333333;
+    border: 2px solid #C0E8FF;
+  }
+  .selectradio .selectradio-label {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    /* margin:auto; */
+    line-height: 45px;
+    padding:0;
+    cursor: pointer;
+    color: #333333;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    background: #EEFECD;4
+    transition: 0.5s;
+    border-radius: 4px;
+  }
+
+    .selectradio.selectradio-inline .selectradio-item {
+    display: inline-block; }
+    .selectradio.selectradio-inline .selectradio-label {
+    display: inline-block;
+    padding: 0;
+    width: 100px;
+  }
+
+
+
+
+/*
+.yorokobi{ß
+float:left;
+}
+.yorokobi input{
+display: none;
+
+}
+
+.yorokobi label{
+display: block;
+float: left;
+cursor: pointer;
+width:80px;
+margin:0;
+padding:12px 15px;
+border-right: 1px solid #abb2b7;
+background: #bdc3c7;
+color:#555e64;
+font-size:14px;
+text-align: center;
+line-height: 1;
+transition: .2s;
+
+}
+
+.yorokobi label:first-of-type{
+  border-radius: 3px 0 0 3px
+}
+
+.yorokobi label:last-of-type{
+  border-right: 0px;
+  border-radius: 0 3px 3px 0;
+}
+
+.yorokobi input[type="radio"]:checked + label{
+
+  background-color: #a1b91d;
+  color:#fff;
+} */
+
+
+
+
+a{
+  color:	#B384FF;
+  font-size: 15px;
+  border:3px solid #B384FF;
+  padding:10px;
+  float:right;
+  margin-right: 40px;
+  margin-bottom: 20px;
+
+}
