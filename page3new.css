@@ -1,9 +1,15 @@
 
+
+
+
+
 body {
   /* background-color: #f0f0f0; */
   font-size: 14px;
-  color: #white;
+  color: #777777;
   margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
 }
 h1,h2,h3,h4,h5,h6{
   padding: 10px 0;
@@ -14,12 +20,13 @@ p{
   padding: 10px 0;
   /* margin: 0px 30px 0px 50px; */
   text-align: center;
-  color:#A9A9A9
+  color:#777777;
 }
-header {
+.header {
+  font-size: :20px
   /*background-color: gray;*/
 /*  height: 10px;*/
- margin-top: 30px;
+
 }
 a{
 }
@@ -60,7 +67,7 @@ footer {
     color: #333333;
     border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
-    background: #EEFECD;4
+    background: #EEEEEE;4
     transition: 0.5s;
     border-radius: 4px;
   }
@@ -119,8 +126,40 @@ transition: .2s;
 
 
 
-
 a{
+  /* color:	#A9A9A9;
+  font-size: 30px;
+  border:3px solid #A4C6FF;
+  padding:20px;
+  float:right;
+  margin-right: 40px;
+  margin-bottom: 20px; */
+
+  display: inline-block;
+  text-decoration: none;
+  color: #A4C6FF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  border: double 4px #A4C6FF;
+  margin:30px 600px;
+  float:right;
+  /* margin-right: 40px;
+  margin-bottom: 100px; */
+  text-align: center;
+  overflow: hidden;
+  transition: .6s;
+
+}
+
+
+a:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+
+
+/* a{
   color:	#B384FF;
   font-size: 15px;
   border:3px solid #B384FF;
@@ -129,4 +168,4 @@ a{
   margin-right: 40px;
   margin-bottom: 20px;
 
-}
+} */
